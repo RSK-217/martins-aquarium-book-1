@@ -1,0 +1,125 @@
+body {
+    /* background-image: radial-gradient(circle,rgb(255, 248, 220) 80%, rgba(255, 255, 0, 0.808), rgba(247, 166, 45, 0.801)); */
+    background-image: url('/images/sky-water2.jpg');
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    /* background-color: cornsilk; */
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(rgba(167, 245, 245, 0.726), rgba(10, 198, 204, 0.993));
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 6em;
+    border: pink 5px ridge;
+}
+    
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#fishes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fish1 {
+    background-image: linear-gradient(to left, rgba(125, 181, 255, 0.74) , rgb(26, 64, 235));
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(234, 248, 31) 5px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.fish2 {
+    background-image: linear-gradient(to right, rgba(125, 181, 255, 0.74) , rgb(26, 64, 235));
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(252, 207, 84) 5px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.fish3 {
+    background-image: linear-gradient(to left, rgba(125, 181, 255, 0.74) , rgb(26, 64, 235));
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.fish4 {
+    background-image: linear-gradient(to right, rgba(125, 181, 255, 0.74) , rgb(26, 64, 235));
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(253, 135, 0) 5px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.fishDetails {
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+.fishDetails, p {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    font-size: 2em;
+}
+
+.sidebar {
+    width: 25%;
+    margin: 0;
+    Padding: 10px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #014a7a;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    font-style: bolder;
+    font-family: sans-serif;
+    text-shadow: 2px 2px #7d7ba3; 
+    color:#1300e7;
+}
+
+.sidebar p {
+    font-style: normal;
+    color: #201b58;
+    font-family: sans-serif;
+}
+
+.sidebar img {
+    padding-left: 30px;
+}
+footer {
+    margin: 100px;
+} 
